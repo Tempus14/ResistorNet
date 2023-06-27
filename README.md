@@ -1,0 +1,12 @@
+# ResistorNet
+Collection of scripts used for the Resistor Net analogy
+## Matrix-Inversionstest
+This script is just a little helper in visualisation of inverting Resistor- and Conductance-Matrices. 
+This was used while trying to understand how such a matrix has to be constructed. 
+This docment serves no practical use for the final project.
+## Network-Solver
+This script contians a working algorithm to calculate currents flowing trough resistors in a given network.
+The network geometry, the nodal voltages and the resistor values have to be known.
+
+## Next step:
+Next up I want to implement a way to import the values from a simulation into a graph to feed into the solver.
