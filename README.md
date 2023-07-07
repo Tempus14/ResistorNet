@@ -7,6 +7,7 @@ This docment serves no practical use for the final project.
 ## Network-Solver
 This script contians a working algorithm to calculate currents flowing trough resistors in a given network.
 The network geometry, the nodal voltages and the resistor values have to be known.
-
-## Next step:
-Next up I want to implement a way to import the values from a simulation into a graph to feed into the solver.
+## NetworkBuild
+This document summarizes the process of building the network
+## Network-Builder
+This document was used to test the performance of the algorithm in NetworkBuild and find the suprising result, that one combined for-loop is faster than individual networkx-functions.
