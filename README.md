@@ -11,3 +11,5 @@ The network geometry, the nodal voltages and the resistor values have to be know
 This document summarizes the process of building the network
 ## Network-Builder
 This document was used to test the performance of the algorithm in NetworkBuild and find the suprising result, that one combined for-loop is faster than individual networkx-functions.
+## Combined
+This file is a short collection of the relevant part of the code from Network-Solver and Network-Builder.
